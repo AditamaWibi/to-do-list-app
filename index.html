@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>To-Do List</title>
+  </head>
+
+  <body>
+    <section class="input-section">
+      <div class="container">
+        <h1 class="heading-primary">To-Do List App</h1>
+      </div>
+      <div class="container">
+        <form action="#">
+          <div class="input-container">
+            <label for="name" class="input-label">Task Name</label>
+            <input type="text" class="input-field" name="name" id="name" />
+          </div>
+
+          <div class="input-container">
+            <label for="description" class="input-label">Description</label>
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="10"
+              class="input-area"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn">Add</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="list-section"></section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
